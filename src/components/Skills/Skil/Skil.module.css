@@ -1,0 +1,13 @@
+
+.skil {
+    border: 3px solid;
+    text-align: center;
+    width: 30%;
+}
+
+
+.skil img {
+    max-width: 150px;
+    width: 100%;
+}
+

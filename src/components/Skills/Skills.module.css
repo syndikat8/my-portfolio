@@ -1,25 +1,23 @@
-.main {
+.skills {
     height: 100vh;
-    background-color: #ff3f38;
+    background-color: #21ff11;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .container {
     border: 1px solid;
     width: 80%;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.greeting {
-    display: flex;
     flex-direction: column;
+    justify-content: space-around;
+
+
 }
 
-.photo {
-    height: 400px;
-    width: 300px;
-    background-color: #0e1708;
+.allSkil {
+    display: flex;
+    justify-content: space-between;
+
 }

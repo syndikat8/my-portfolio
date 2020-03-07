@@ -1,0 +1,11 @@
+.work {
+    border: 3px solid;
+    width: 500px;
+
+}
+
+.work img {
+    max-width: 100px;
+    width: 100%;
+}
+
