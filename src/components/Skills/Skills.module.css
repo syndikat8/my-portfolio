@@ -12,12 +12,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
-
 }
+
+
 
 .allSkil {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
 
 }

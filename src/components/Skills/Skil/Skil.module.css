@@ -1,8 +1,13 @@
 
 .skil {
     border: 3px solid;
-    text-align: center;
-    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 10px;
+    max-width: 300px;
+    width: 100%;
+
 }
 
 
