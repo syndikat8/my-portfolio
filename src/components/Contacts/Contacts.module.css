@@ -1,5 +1,5 @@
 .contacts {
-    height: 80vh;
+    min-height: 80vh;
     background-color: #ff847f ;
     display: flex;
     justify-content: center;
@@ -8,27 +8,39 @@
 
 .container {
     border: 1px solid;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     width: 80%;
+    display: flex;
 
 }
 
 .contacts button {
-    padding: 1.5%;
-    max-width: 100px;
-    width: 100%;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
-textarea {
-    margin:0 0 100px;;
-    max-width: 500px;
-    width: 100%;
-    border: 0px;
+form, input, textarea {
+    width: 70%;
 }
 
+.contacts h2 {
+    font-size: 40px;
+}
 
-input {
-    margin:0 0 10px;
-    max-width: 500px;
-    width: 100%;
-    border: 0px;
+@media all and (max-width: 700px) {
+    form, input, textarea {
+        width: 100%;
+    }
+    .contacts h2 {
+        font-size: 30px;
+    }
+    .contacts button {
+        width: 150px;
+        height: 40px;
+        font-size: 20px;
+    }
 }

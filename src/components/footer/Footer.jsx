@@ -7,17 +7,16 @@ function Footer() {
     <div className={styles.footer}>
       <div className={styles.container}>
         <h2> Матусик Дмитрий </h2>
-         <div>
-           <a className={styles.item}>111</a>
-           <a className={styles.item}>211</a>
-           <a className={styles.item}>311</a>
-           <a className={styles.item}>411</a>
-           <a className={styles.item}>511</a>
-           <a className={styles.item}>611</a>
-
-
+         <div className={styles.items}>
+          <div><a>111</a> </div>
+          <div><a>111</a> </div>
+          <div><a>111</a> </div>
+          <div><a>111</a> </div>
+          <div><a>111</a> </div>
+          <div><a>111</a> </div>
+          <div><a>111</a> </div>
          </div>
-        <h3>© 2020 Все права защищены </h3>
+        <h5>© 2020 Все права защищены </h5>
       </div>
     </div>
   );

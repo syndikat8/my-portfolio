@@ -8,15 +8,13 @@ function Contacts() {
 
         <h2> Контакты </h2>
         <form action="#">
-          <div><input size="20" type="text"/></div>
-          <div><input size="20" type="text"/></div>
+          <div><input placeholder="ФИО" type="text"/></div>
+          <div><input placeholder="Контакты" type="text"/></div>
           <div>
-            <textarea name="" id="" cols="15" rows="15"></textarea>
+            <textarea name="" id="" cols="30" rows="15"></textarea>
           </div>
         </form>
-        <div>
           <button>Отправить</button>
-        </div>
       </div>
     </div>
   );
