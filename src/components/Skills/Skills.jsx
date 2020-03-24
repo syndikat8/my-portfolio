@@ -6,11 +6,13 @@ function Skills() {
   return (
     <div className={styles.skills}>
       <div className={styles.container}>
-        <h2> Мои скилы </h2>
+        <div className={styles.mySkills}>
+          <h2> Мои скилы </h2>
+        </div>
         <div className={styles.allSkil}>
-        <Skil/>
-        <Skil/>
-        <Skil/>
+          <Skil/>
+          <Skil/>
+          <Skil/>
 
         </div>
       </div>
