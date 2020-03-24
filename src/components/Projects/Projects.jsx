@@ -8,7 +8,7 @@ function Projects() {
     <div className={styles.projects}>
       <div className={styles.container}>
 
-        <div>
+        <div className={styles.myProjects}>
         <h2> Мои проекты </h2>
         </div>
         <div className={styles.allWorks}>
