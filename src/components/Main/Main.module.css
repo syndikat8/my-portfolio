@@ -24,6 +24,7 @@
 .greeting span:nth-child(1) {
     font-size: 16px;
 }
+
 .greeting span:nth-child(2),
 .greeting span:nth-child(2) span {
     font-size: 50px;
@@ -54,10 +55,29 @@ h1 {
 
 .photo {
     margin-top: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.image {
     height: 400px;
     width: 300px;
     background-color: white;
 }
+
+.photo .image:before {
+    content: "";
+    position: absolute;
+    height: 430px;
+    max-width: 300px;
+    width: 100%;
+    border: 5px solid #ea548d;
+    left: 15px;
+    top: -20px;
+    z-index: -1;
+}
+
+
 @media screen and (max-width: 790px) {
     .greeting span:nth-child(2) span:before {
         content: "";
@@ -96,6 +116,7 @@ h1 {
         z-index: -1;
     }
 }
+
 @media screen and (max-width: 380px) {
     .greeting span:nth-child(2) span:before {
         content: "";
