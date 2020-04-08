@@ -7,14 +7,12 @@ function Contacts() {
       <div className={styles.container}>
 
         <h2> Контакты </h2>
-        <form action="#">
-          <div><input placeholder="ФИО" type="text"/></div>
-          <div><input placeholder="Контакты" type="text"/></div>
-          <div>
-            <textarea placeholder="Сообщение" name="" id="" cols="30" rows="15"></textarea>
-          </div>
+        <form className={styles.formatArea}>
+          <input placeholder="ФИО" type="text"/>
+          <input placeholder="Контакты" type="text"/>
+          <textarea placeholder="Сообщение" ></textarea>
         </form>
-          <button>Отправить</button>
+        <button>Отправить</button>
       </div>
     </div>
   );

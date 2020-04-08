@@ -1,12 +1,13 @@
 .header {
-     height: 70px;
-     background-color: #b7e2ff;
-     display: flex;
-     justify-content: center;
- }
+    height: 70px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+}
 
 .container {
-    border: 1px solid;
     width: 80%;
     display: flex;
     justify-content: flex-end;

@@ -25,4 +25,17 @@
     font-weight: bold;
 }
 
+.slogan h2 {
+    font-size: 30px;
+}
 
+@media screen and (max-width: 600px) {
+    .slogan h2 {
+        font-size: 22px;
+    }
+    .slogan button {
+        width: 140px;
+        height: 40px;
+        font-size: 18px;
+    }
+}
