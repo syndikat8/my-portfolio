@@ -8,12 +8,13 @@ function Skills() {
       <div className={styles.container}>
         <div className={styles.mySkills}>
           <h2> Мои скилы </h2>
+          <div className={styles.line}></div>
         </div>
+
         <div className={styles.allSkil}>
           <Skil/>
           <Skil/>
           <Skil/>
-
         </div>
       </div>
     </div>
