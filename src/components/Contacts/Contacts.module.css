@@ -17,12 +17,6 @@
 
 }
 
-.contacts button {
-    width: 200px;
-    height: 50px;
-    font-size: 25px;
-    font-weight: bold;
-}
 
 .formatArea {
     width: 40%;
@@ -53,9 +47,5 @@
     .contacts h2 {
         font-size: 30px;
     }
-    .contacts button {
-        width: 150px;
-        height: 40px;
-        font-size: 20px;
-    }
+
 }
