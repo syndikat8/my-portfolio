@@ -11,7 +11,17 @@ body {
   line-height: 1.8;
 }
 
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 5px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+

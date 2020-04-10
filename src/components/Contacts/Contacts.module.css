@@ -1,6 +1,6 @@
 .contacts {
     min-height: 80vh;
-    background-color: #ff847f ;
+    background-color: #1f1f20;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -29,12 +29,20 @@
     display: flex;
     flex-direction: column;
 }
+
+.formatArea input {
+    background-color: #252527;
+    margin: 5px 0;
+    border: 1px solid #4a4a4a;
+}
+
 .formatArea textarea {
+    margin: 5px 0;
     min-height: 160px;
+    background-color: #252527;
+    border: 1px solid #4a4a4a;
 }
-.contacts h2 {
-    font-size: 40px;
-}
+
 
 @media screen and (max-width: 600px) {
      .formatArea {

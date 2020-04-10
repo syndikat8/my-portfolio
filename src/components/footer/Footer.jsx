@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className={styles.footer}>
       <div className={styles.container}>
-        <h2> Матусик Дмитрий </h2>
+        <h3> Матусик Дмитрий </h3>
          <div className={styles.items}>
           <div><a>111</a> </div>
           <div><a>111</a> </div>

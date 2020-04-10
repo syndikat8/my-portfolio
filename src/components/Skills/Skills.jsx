@@ -7,7 +7,7 @@ function Skills() {
     <div className={styles.skills}>
       <div className={styles.container}>
         <div className={styles.mySkills}>
-          <h2> Мои скилы </h2>
+          <h2 className={styles.qqq}> Мои скилы </h2>
           <div className={styles.line}></div>
         </div>
 

@@ -1,7 +1,7 @@
 .footer {
     min-height: 30vh;
     width: 100%;
-    background-color: #1127ff;
+    background-color: #252527;
     display: flex;
     justify-content: center;
 }
@@ -19,4 +19,12 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.footer h3 {
+    letter-spacing: 3px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
 }

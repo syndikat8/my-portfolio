@@ -1,6 +1,6 @@
 .projects {
     min-height: 100vh;
-    background-color: #b90eff;
+    background-color: #1f1f20;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -19,12 +19,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
-
-}
-
-.projects h2 {
-    font-size: 50px;
 }
 
 .myProjects {

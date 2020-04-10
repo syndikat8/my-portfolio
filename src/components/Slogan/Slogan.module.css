@@ -1,6 +1,6 @@
 .slogan {
     height: 40vh;
-    background-color: #fff77a;
+    background-color: #252527;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -25,13 +25,9 @@
     font-weight: bold;
 }
 
-.slogan h2 {
-    font-size: 30px;
-}
-
 @media screen and (max-width: 600px) {
     .slogan h2 {
-        font-size: 22px;
+        font-size: 25px;
     }
     .slogan button {
         width: 140px;

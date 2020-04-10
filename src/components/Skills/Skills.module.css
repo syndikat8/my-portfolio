@@ -24,14 +24,7 @@
     flex-wrap: wrap;
 
 }
-.mySkills h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 36px;
-    line-height: 1.2;
-    letter-spacing: 5px;
-    font-weight: 400;
-    text-transform: capitalize;
-}
+
 
 .line {
     background: #e9548d;
