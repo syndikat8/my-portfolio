@@ -25,11 +25,11 @@ class Footer extends React.Component {
     return (
       <div className={styles.footer}>
         <div className={styles.container}>
-          <h3> Матусик Дмитрий </h3>
+          <h4>© Матусик Дмитрий 2020. </h4>
           <div className={styles.items}>
             {itemsFooter}
           </div>
-          <h5>© 2020 Все права защищены </h5>
+
         </div>
       </div>
 

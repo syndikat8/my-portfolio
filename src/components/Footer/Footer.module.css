@@ -1,5 +1,5 @@
 .footer {
-    min-height: 30vh;
+    min-height: 5vh;
     width: 100%;
     background-color: #252527;
     display: flex;
@@ -7,29 +7,24 @@
 }
 
 .container {
-    border: 1px solid;
     width: 80%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .items {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-
-}
-
-.footer h3 {
-    letter-spacing: 3px;
-    color: #fff;
-    font-size: 22px;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .item {
     margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+    }
 }
