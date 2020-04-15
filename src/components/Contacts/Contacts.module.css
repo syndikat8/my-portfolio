@@ -34,8 +34,14 @@
 
 }
 
+.formatAreaElement {
+    display: flex;
+    justify-content: space-between;
 
-
+}
+.formatAreaElement input {
+    width: 45%;
+}
 .formatArea {
     width: 40%;
     display: flex;
@@ -46,6 +52,7 @@
     background-color: #252527;
     margin: 5px 0;
     border: 1px solid #4a4a4a;
+    height: 30px;
 }
 
 .formatArea textarea {

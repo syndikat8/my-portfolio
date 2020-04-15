@@ -13,8 +13,11 @@ function Contacts() {
             <p>+375 29 26-41-378</p>
           </div>
         <form className={styles.formatArea}>
-          <input placeholder="ФИО" type="text"/>
-          <input placeholder="Контакты" type="text"/>
+          <div className={styles.formatAreaElement}>
+            <input placeholder="Имя" type="text"/>
+            <input placeholder="Контакты" type="text"/>
+          </div>
+          <input placeholder="Заголовок (необязательно)" type="text"/>
           <textarea placeholder="Сообщение" ></textarea>
         </form>
         </div>
