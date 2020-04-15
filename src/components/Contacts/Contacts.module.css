@@ -1,6 +1,6 @@
 .contacts {
     min-height: 80vh;
-    background-color: #1f1f20;
+    background: url("http://paul-themes.com/wordpress/ramsay/wp-content/uploads/2019/12/attachment-03.jpg") no-repeat center / cover;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -8,7 +8,6 @@
 }
 
 .container {
-    border: 1px solid;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;

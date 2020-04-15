@@ -1,6 +1,6 @@
 .slogan {
     min-height: 40vh;
-    background-color: #252527;
+    background-color: #12151a;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -8,7 +8,6 @@
 }
 
 .container {
-    border: 1px solid;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
