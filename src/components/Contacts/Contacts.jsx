@@ -9,8 +9,8 @@ function Contacts() {
         <div className={styles.contactMain}>
           <div className={styles.contactMainElement} >
             <h3>Минск, БЕЛАРУСЬ</h3>
-            <a href="k.syndikat@gmail.com">k.syndikat@gmail.com</a>
-            <p>+375 29 2-64-13-78</p>
+            <a href="https://mail.google.com/">k.syndikat@gmail.com</a>
+            <p>+375 29 26-41-378</p>
           </div>
         <form className={styles.formatArea}>
           <input placeholder="ФИО" type="text"/>
