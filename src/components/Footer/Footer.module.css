@@ -17,8 +17,9 @@
 
 .items {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
+
 }
 
 .footer h3 {
@@ -27,4 +28,8 @@
     font-size: 22px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
+}
+
+.item {
+    margin-right: 10px;
 }
