@@ -18,6 +18,28 @@
 }
 
 
+.contactMain {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contactMainElement h3 {
+    font-size: 25px;
+    color: #ea548d;
+}
+
+.contactMainElement {
+    text-align: left;
+
+}
+
+.contactMainElement a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .formatArea {
     width: 40%;
     display: flex;
@@ -39,11 +61,12 @@
 
 
 @media screen and (max-width: 600px) {
-     .formatArea {
-         width: 100%;
-         display: flex;
-         flex-direction: column;
-     }
+    .formatArea {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
     .contacts h2 {
         font-size: 30px;
     }
