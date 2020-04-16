@@ -11,9 +11,9 @@ function Main() {
           <span>Я Дмитрий <span>Матусик</span></span>
           <h1>Front-end разработчик</h1>
         </div>
-        <div className={styles.photo}>
-          <div className={styles.image}></div>
-        </div>
+        {/*<div className={styles.photo}>*/}
+        {/*  /!*<div className={styles.image}></div>*!/*/}
+        {/*</div>*/}
       </div>
     </div>
   );
