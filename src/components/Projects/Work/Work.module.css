@@ -1,12 +1,32 @@
 .work {
-    border: 3px solid;
-    width: 500px;
-    margin: 50px 10px;
-    padding: 10px;
-}
-
-.work img {
-    max-width: 150px;
+    position: relative;
+    max-width: 400px;
     width: 100%;
+    height: 400px;
+    margin: 50px 10px;
+    background: url("https://ax.digital/content/images/size/w2000/2018/08/stupro-virtuale2jpg.jpg")  no-repeat center / cover;
 }
 
+
+
+.drop {
+    opacity: 0.8;
+    background-color: #212529;
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.work:hover .drop {
+    display: block;
+}
+
+.dropItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

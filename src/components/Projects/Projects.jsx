@@ -15,7 +15,6 @@ function Projects() {
         <div className={styles.allWorks}>
         <Work/>
         <Work/>
-
         </div>
       </div>
     </div>
