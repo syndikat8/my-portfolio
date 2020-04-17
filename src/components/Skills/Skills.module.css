@@ -35,3 +35,7 @@
 .head span {
     color: #ea548d;;
 }
+
+.item {
+    transform: rotate(-45deg);
+}

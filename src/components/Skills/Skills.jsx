@@ -18,7 +18,9 @@ class Skills extends React.Component {
 
 
   render() {
+
     let  Skill = this.state.faItem.map(it => <Skil name={it.name} className={it.className} icon={it.icon} size={it.size}/>  )
+
     return (
       <div className={styles.skills}>
         <div className={styles.container}>

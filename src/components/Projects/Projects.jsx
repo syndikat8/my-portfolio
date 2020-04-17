@@ -9,8 +9,7 @@ function Projects() {
       <div className={styles.container}>
 
         <div className={styles.myProjects}>
-        <h2 className={styles.head}> Мои <span>проекты</span> </h2>
-          <div className={styles.line}></div>
+        <h2> Мои проекты </h2>
         </div>
         <div className={styles.allWorks}>
         <Work/>

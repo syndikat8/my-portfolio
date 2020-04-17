@@ -19,3 +19,14 @@
     font-size: 20px;
 
 }
+
+.skilBackground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #212529;
+    transform: rotate(45deg);
+
+}
