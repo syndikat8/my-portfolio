@@ -1,10 +1,10 @@
 .work {
     position: relative;
     max-width: 400px;
-    width: 100%;
+    width: 80%;
     height: 400px;
     margin: 50px 10px;
-    background: url("https://ax.digital/content/images/size/w2000/2018/08/stupro-virtuale2jpg.jpg")  no-repeat center / cover;
+    background: no-repeat center / cover;
 }
 
 
