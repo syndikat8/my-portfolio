@@ -20,6 +20,7 @@
         max-width: 250px;
         width: 100%;
         height: 250px;
+
     }
 }
 
@@ -43,4 +44,21 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+@media screen and (max-width: 450px) {
+    .drop {
+        opacity: 0.8;
+        background-color: #212529;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        font-size: 30px;
+        font-weight: bold;
+        color: #ea548d;
+    }
+
+
 }
