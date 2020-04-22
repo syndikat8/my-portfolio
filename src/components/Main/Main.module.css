@@ -5,7 +5,7 @@
     background: url("../../bac.png") no-repeat center / cover;
     display: flex;
     justify-content: center;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .container {
@@ -23,7 +23,7 @@
 }
 
 .greeting span:nth-child(1) {
-    font-size: 16px;
+    font-size: 25px;
 }
 
 .greeting span:nth-child(2),
@@ -50,7 +50,7 @@
 }
 
 h1 {
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 400;
 }
 
@@ -90,43 +90,30 @@ h1 {
         background-color: #ea548d;
         z-index: -1;
     }
+
 }
+
 
 @media screen and (max-width: 456px) {
+    .greeting span:nth-child(1) {
+        font-size: 15px;
+    }
+    .greeting span:nth-child(2),
+    .greeting span:nth-child(2) span {
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 18px;
+    }
     .greeting span:nth-child(2) span:before {
         content: "";
         position: absolute;
-        width: 260px;
-        height: 20px;
+        width: 160px;
+        height: 13px;
         bottom: 0;
-        left: 17px;
+        left: -210px;
         background-color: #ea548d;
         z-index: -1;
     }
 }
 
-@media screen and (max-width: 432px) {
-    .greeting span:nth-child(2) span:before {
-        content: "";
-        position: absolute;
-        width: 260px;
-        height: 20px;
-        bottom: 0;
-        left: -267px;
-        background-color: #ea548d;
-        z-index: -1;
-    }
-}
-
-@media screen and (max-width: 380px) {
-    .greeting span:nth-child(2) span:before {
-        content: "";
-        position: absolute;
-        width: 260px;
-        height: 20px;
-        bottom: 0;
-        left: 20px;
-        background-color: #ea548d;
-        z-index: -1;
-    }
-}
