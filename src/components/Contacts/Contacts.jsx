@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Contacts.module.css';
+import Fade from 'react-reveal/Fade';
 
 function Contacts() {
   return (
@@ -7,6 +8,7 @@ function Contacts() {
       <div className={styles.container}>
         <h2> Контакты </h2>
         <div className={styles.contactMain}>
+          <Fade left>
           <div className={styles.contactMainElement}>
             <h3>Минск, БЕЛАРУСЬ</h3>
             <a href="https://mail.google.com/">k.syndikat@gmail.com</a>
@@ -21,6 +23,7 @@ function Contacts() {
             <textarea placeholder="Сообщение"></textarea>
             <button>Отправить</button>
           </form>
+          </Fade>
         </div>
       </div>
     </div>

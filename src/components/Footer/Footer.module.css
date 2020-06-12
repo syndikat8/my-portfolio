@@ -4,6 +4,7 @@
     background-color: #12151a;
     display: flex;
     justify-content: center;
+    position: relative
 }
 
 .container {

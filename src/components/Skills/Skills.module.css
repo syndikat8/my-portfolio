@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    position: relative
 }
 
 .container {
@@ -34,8 +35,4 @@
 
 .head span {
     color: #ea548d;;
-}
-
-.item {
-    transform: rotate(-45deg);
 }
