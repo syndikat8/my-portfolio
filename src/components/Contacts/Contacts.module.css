@@ -1,6 +1,6 @@
 .contacts {
     min-height: 80vh;
-    background: url("http://paul-themes.com/wordpress/ramsay/wp-content/uploads/2019/12/attachment-03.jpg") no-repeat center / cover;
+    background: url("../../assets/bacground-images/contacts.jpg") no-repeat center / cover;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -24,7 +24,7 @@
 }
 
 .contactMainElement h3 {
-    font-size: 25px;
+    font-size: 28px;
     color: #ea548d;
 }
 
@@ -38,14 +38,13 @@
 
 }
 .formatAreaElement input {
-    width: 43%;
+    width: 48%;
 }
 
 .formatArea {
     width: 40%;
     display: flex;
     flex-direction: column;
-
 }
 
 .formatArea button {
@@ -57,17 +56,31 @@
     background-color: #252527;
     margin: 5px 0;
     border: 1px solid #4a4a4a;
-    height: 30px;
+    height: 40px;
     padding: 10px;
+    outline: none;
+    box-sizing: border-box;
+    color: #fff;
 }
 
 .formatArea textarea {
     margin: 5px 0;
-    min-height: 160px;
+    min-height: 170px;
     background-color: #252527;
-    border: 1px solid #4a4a4a;
     padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #4a4a4a;
+    outline: none;
+    color: #fff;
 }
+
+.formatArea textarea:focus {
+    border: none;
+}
+.formatArea input:focus {
+    border: none;
+}
+
 
 @media screen and (max-width: 600px) {
     .formatArea {

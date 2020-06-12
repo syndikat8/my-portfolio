@@ -10,7 +10,7 @@ const Skil = (props) => {
       <Item size={props.size} icon={props.icon} className={styles.item}/>
       </div>
       <h3> {props.name}</h3>
-      <p>React — это JavaScript-библиотека для разработки пользовательского интерфейса.</p>
+      <p>{props.description}</p>
     </div>
   );
 

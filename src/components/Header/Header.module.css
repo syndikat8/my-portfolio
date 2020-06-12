@@ -6,7 +6,7 @@
     width: 100%;
     z-index: 100;
     border-bottom: 2px solid #fff;
-    position: relative
+    position: fixed;
 }
 
 .container {

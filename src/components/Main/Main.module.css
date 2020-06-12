@@ -1,8 +1,7 @@
 .main {
     min-height: 100vh;
     width: 100%;
-    /*background: url("../../bac.png") no-repeat center / cover;*/
-    background: url("../../vacground.jpg") no-repeat center / cover;
+    background: url("../../assets/bacground-images/main.jpg") no-repeat center / cover;
     display: flex;
     justify-content: center;
     padding: 50px 0;
@@ -55,34 +54,13 @@ h1 {
     font-weight: 400;
 }
 
-/*.photo {*/
-/*    margin-top: 50px;*/
-/*    position: relative;*/
-/*    z-index: 1;*/
-/*}*/
-
-
-
 .image {
     width: 580px;
     height: 760px;
-    background: url("../../4564.png") no-repeat center / cover;
-    margin: 0   auto;
+    background: url("../../assets/images/mainPhoto.png") no-repeat center / cover;
+    margin: 0 auto;
     align-items: center;
 }
-
-/*.photo .image:before {*/
-/*    content: "";*/
-/*    position: absolute;*/
-/*    height: 430px;*/
-/*    max-width: 300px;*/
-/*    width: 100%;*/
-/*    border: 5px solid #ea548d;*/
-/*    left: 15px;*/
-/*    top: -20px;*/
-/*    z-index: -1;*/
-/*}*/
-
 
 @media screen and (max-width: 790px) {
     .greeting span:nth-child(2) span:before {
@@ -95,6 +73,7 @@ h1 {
         background-color: #ea548d;
         z-index: -1;
     }
+
     .image {
         width: 400px;
         height: 500px;
@@ -107,13 +86,16 @@ h1 {
     .greeting span:nth-child(1) {
         font-size: 15px;
     }
+
     .greeting span:nth-child(2),
     .greeting span:nth-child(2) span {
         font-size: 30px;
     }
+
     h1 {
         font-size: 18px;
     }
+
     .greeting span:nth-child(2) span:before {
         content: "";
         position: absolute;
@@ -124,6 +106,7 @@ h1 {
         background-color: #ea548d;
         z-index: -1;
     }
+
     .image {
         width: 300px;
         height: 400px;

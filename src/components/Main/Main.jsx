@@ -4,7 +4,7 @@ import Zoom from 'react-reveal/Zoom';
 
 function Main() {
   return (
-    <div className={styles.main}>
+    <div id="home" className={styles.main}>
       <div className={styles.container}>
         <Zoom left>
         <div className={styles.greeting}>
