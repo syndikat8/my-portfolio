@@ -23,7 +23,7 @@ class Projects extends React.Component {
   }
 
   render() {
-    let project = this.state.divStyle.map(p => <Work background={p.background} title={p.title}/>)
+    let project = this.state.divStyle.map((p, index) => <Work background={p.background} key={index} title={p.title}/>)
     return (
       <div id="projects" className={styles.projects}>
         <div className={styles.container}>

@@ -8,16 +8,16 @@ class Footer extends React.Component {
 
   state = {
     faItem: [
-      {icon: faTelegram, className:styles.item, size: "2x", id: "https://t.me/Xustler"},
-      {icon: faVk, className:styles.item, size: "2x", id: "https://vk.com/dimamatus"},
-      {icon: faInstagram, className:styles.item, size: "2x", id: "http://instagram.com/dimamatus"},
-      {icon: faGithub, className:styles.item, size: "2x", id: "https://github.com/syndikat8"} ,
-      {icon: faGoogle, className:styles.item, size: "2x", id: "https://mail.google.com/"} ,
+      {icon: faTelegram, className:styles.item, size: "2x", url: "https://t.me/Xustler"},
+      {icon: faVk, className:styles.item, size: "2x", url: "https://vk.com/dimamatus"},
+      {icon: faInstagram, className:styles.item, size: "2x", url: "http://instagram.com/dimamatus"},
+      {icon: faGithub, className:styles.item, size: "2x", url: "https://github.com/syndikat8"} ,
+      {icon: faGoogle, className:styles.item, size: "2x", url: "https://mail.google.com/"} ,
     ]
   }
 
   render() {
-     let  itemsFooter = this.state.faItem.map(it =>  <a href={it.id}><Item className={it.className} icon={it.icon} size={it.size}/></a> )
+     let  itemsFooter = this.state.faItem.map((it, index) =>  <a href={it.url}><Item className={it.className} key={index} icon={it.icon} size={it.size}/></a> )
     return (
       <div className={styles.footer}>
         <div className={styles.container}>
