@@ -36,7 +36,7 @@ class Contacts extends React.Component {
           {this.state.behold &&
             <span
               onPointerEnter={onBeholdChange}
-              className={styles.messageForm}>"Cообщение получено! Скоро свяжусь с Вами:)"
+              className={styles.messageForm}>Cообщение отправлено! Скоро свяжусь с Вами:)
           </span>
           }
 
