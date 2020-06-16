@@ -14,7 +14,7 @@
     background: transparent;
     color: #fff;
     z-index: 0;
-
+    outline: none;
 }
 
 .button:after {
