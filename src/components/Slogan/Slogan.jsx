@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Slogan.module.css';
 import Zoom from 'react-reveal/Zoom';
+import Button from "../Button/Button";
 function Slogan() {
   return (
     <div className={styles.slogan}>
@@ -8,7 +9,7 @@ function Slogan() {
         <Zoom left>
         <h2> Рассматриваю варианты удаленной работы </h2>
         </Zoom>
-        <button>Нанять меня</button>
+        <Button name="Нанять меня" />
       </div>
     </div>
   );

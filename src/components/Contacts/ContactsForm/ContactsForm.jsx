@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './../Contacts.module.css';
 import {Field, reduxForm} from "redux-form";
+import Button from "../../Button/Button";
 
 
 const ContactsForm = (props) => {
@@ -25,7 +26,7 @@ const ContactsForm = (props) => {
         name="messages"
         placeholder="Сообщение"
         component="textarea"/>
-      <button>Отправить</button>
+      <Button name="отправить"/>
     </form>
   );
 }

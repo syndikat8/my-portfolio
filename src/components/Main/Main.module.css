@@ -4,7 +4,7 @@
     background: url("../../assets/bacground-images/main.jpg") no-repeat center / cover;
     display: flex;
     justify-content: center;
-    padding: 50px 0;
+    padding: 70px 0;
     position: relative
 }
 
@@ -41,7 +41,7 @@
 .greeting span:nth-child(2) span:before {
     content: "";
     position: absolute;
-    width: 260px;
+    width: 100%;
     height: 20px;
     bottom: 0;
     left: 20px;
