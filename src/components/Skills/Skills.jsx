@@ -14,7 +14,7 @@ class Skills extends React.Component {
         icon: faJs,
         size: "5x",
         name: "JAVASCRIPT",
-        description: "JS - язык программирования, который добавляет интерактивность на веб-сайт."
+        description: "JS — язык программирования, который добавляет интерактивность на веб-сайт."
       },
       {
         icon: faReact,
@@ -27,26 +27,26 @@ class Skills extends React.Component {
         icon: null,
         size: "5x",
         name: "REDUX",
-        description: "Redux - библиотека предназначенная для управления состоянием приложения."
+        description: "Redux — библиотека предназначенная для управления состоянием приложения."
       },
       {
         icon: faHtml5,
         size: "5x",
         name: "HTML",
-        description: "HTML - стандартизированный язык разметки документов."
+        description: "HTML — стандартизированный язык разметки документов."
       },
       {
         icon: faCss3,
         size: "5x",
         name: "CSS",
-        description: "CSS - язык описания внешнего вида документа."
+        description: "CSS — язык описания внешнего вида документа."
       },
       {
         url: typesctipt,
         icon: null,
         size: "5x",
         name: "TYPESCRIPT",
-        description: "TYPESCRIPT - надмножество Javascript с опциональной статической типизацией."
+        description: "TYPESCRIPT — надмножество Javascript с опциональной статической типизацией."
       },
     ]
   }
