@@ -3,16 +3,51 @@ import styles from './Skills.module.css';
 import Skil from "./Skil/Skil";
 import {faCss3, faHtml5, faJs, faReact} from '@fortawesome/free-brands-svg-icons';
 import Fade from 'react-reveal/Fade';
+import typesctipt from './../../assets/skills/typescript.png'
+import redux from './../../assets/skills/redux.png'
 
 class Skills extends React.Component {
 
   state = {
     faItem: [
-      {icon: faJs, size: "5x", name: "JAVASCRIPT", description: "JS - это язык программирования, который добавляет интерактивность на веб-сайт"},
-      {icon: faReact, size: "5x", name: "REACT", description: "React — это JavaScript-библиотека для разработки пользовательского интерфейса."},
-      {icon: faReact, size: "5x", name: "REDUX", description: "Redux - это библиотека для JavaScript с открытым исходным кодом, предназначенная для управления состоянием приложения."},
-      {icon: faHtml5, size: "5x", name: "HTML", description: "HTML - это стандартизированный язык разметки документов."},
-      {icon: faCss3, size: "5x", name: "CSS", description: "CSS - это язык описания внешнего вида документа, написанного с использованием языка разметки."},
+      {
+        icon: faJs,
+        size: "5x",
+        name: "JAVASCRIPT",
+        description: "JS - язык программирования, который добавляет интерактивность на веб-сайт."
+      },
+      {
+        icon: faReact,
+        size: "5x",
+        name: "REACT",
+        description: "React — JavaScript-библиотека для разработки пользовательского интерфейса."
+      },
+      {
+        url: redux,
+        icon: null,
+        size: "5x",
+        name: "REDUX",
+        description: "Redux - библиотека предназначенная для управления состоянием приложения."
+      },
+      {
+        icon: faHtml5,
+        size: "5x",
+        name: "HTML",
+        description: "HTML - стандартизированный язык разметки документов."
+      },
+      {
+        icon: faCss3,
+        size: "5x",
+        name: "CSS",
+        description: "CSS - язык описания внешнего вида документа."
+      },
+      {
+        url: typesctipt,
+        icon: null,
+        size: "5x",
+        name: "TYPESCRIPT",
+        description: "TYPESCRIPT - надмножество Javascript с опциональной статической типизацией."
+      },
     ]
   }
 
@@ -20,10 +55,11 @@ class Skills extends React.Component {
   render() {
 
     let Skill = this.state.faItem.map((it, index) => <Skil name={it.name}
-                                                  key={index}
-                                                  description={it.description}
-                                                  icon={it.icon}
-                                                  size={it.size}/>)
+                                                           url={it.url}
+                                                           key={index}
+                                                           description={it.description}
+                                                           icon={it.icon}
+                                                           size={it.size}/>)
 
     return (
       <div id="skills" className={styles.skills}>

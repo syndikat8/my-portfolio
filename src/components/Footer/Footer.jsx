@@ -12,7 +12,7 @@ class Footer extends React.Component {
       {icon: faVk, className:styles.item, size: "2x", url: "https://vk.com/dimamatus"},
       {icon: faInstagram, className:styles.item, size: "2x", url: "http://instagram.com/dimamatus"},
       {icon: faGithub, className:styles.item, size: "2x", url: "https://github.com/syndikat8"} ,
-      {icon: faGoogle, className:styles.item, size: "2x", url: "https://mail.google.com/"} ,
+      {icon: faGoogle, className:styles.item, size: "2x", url: "https://mail.google.com/"}
     ]
   }
 

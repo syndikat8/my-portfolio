@@ -10,20 +10,14 @@ class Projects extends React.Component {
 
   state = {
     divStyle: [
-      {
-        background: social,
-        title: "Social Network"
-      },
-      {background: todolist, title: "TodoList"},
-      {
-        background: counter,
-        title: "Сounter"
-      },
+      {background: social, title: "Social Network", url: "https://syndikat8.github.io/Social_Network/"},
+      {background: todolist, title: "TodoList", url: "https://syndikat8.github.io/todolist01/"},
+      {background: counter, title: "Сounter", url: "https://syndikat8.github.io/counter/"},
     ]
   }
 
   render() {
-    let project = this.state.divStyle.map((p, index) => <Work background={p.background} key={index} title={p.title}/>)
+    let project = this.state.divStyle.map((p, index) => <Work url={p.url} background={p.background} key={index} title={p.title}/>)
     return (
       <div id="projects" className={styles.projects}>
         <div className={styles.container}>
