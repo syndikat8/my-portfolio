@@ -5,6 +5,7 @@ import Fade from 'react-reveal/Fade';
 import social from "./../../assets/bacground-projects/social.jpg"
 import todolist from "./../../assets/bacground-projects/todolist.png"
 import counter from "./../../assets/bacground-projects/counter.png"
+import blog from "./../../assets/bacground-projects/blog.png"
 
 class Projects extends React.Component {
 
@@ -13,6 +14,7 @@ class Projects extends React.Component {
       {background: social, title: "Social Network", url: "https://syndikat8.github.io/Social_Network/"},
       {background: todolist, title: "TodoList", url: "https://syndikat8.github.io/todolist01/"},
       {background: counter, title: "Сounter", url: "https://syndikat8.github.io/counter/"},
+      {background: blog, title: "My blog", url: "https://github.com/syndikat8/blog-react-native"},
     ]
   }
 
